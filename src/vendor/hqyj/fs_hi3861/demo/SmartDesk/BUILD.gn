@@ -1,0 +1,46 @@
+
+
+static_library("SmartDesk_demo") {
+    
+    sources = [
+        "SmartDesk_demo.c",
+        "sensor_collect_task.c",
+        "mqtt_send_task.c",
+        "mqtt_recv_task.c",
+        "motor_task.c",
+        "//vendor/hqyj/fs_hi3861/common/bsp/src/oled_show_log.c",
+        "//vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_wifi.c",
+        "//vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_mqtt.c",
+        "//vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_ap3216c.c",
+        "//vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_aw2013.c",
+        "//vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_pcf8574.c",
+        "//vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_ssd1306.c",
+        "//vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_ssd1306_bmps.c",
+        "//vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_key.c",
+        "//vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_sht20.c",
+        "//third_party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectClient.c",
+        "//third_party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTConnectServer.c",
+        "//third_party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTDeserializePublish.c",
+        "//third_party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTFormat.c",
+        "//third_party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTPacket.c",
+        "//third_party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSerializePublish.c",
+        "//third_party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeClient.c",
+        "//third_party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTSubscribeServer.c",
+        "//third_party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeServer.c",
+        "//third_party/paho.mqtt.embedded-c/MQTTPacket/src/MQTTUnsubscribeClient.c",
+    ]
+    cflags = [ "-Wno-unused-variable" ]
+    cflags += [ "-Wno-unused-but-set-variable" ]
+    cflags += [ "-Wno-unused-parameter" ]
+    include_dirs = [
+        "./",
+        "//utils/native/lite/include",
+        "//kernel/liteos_m/kal/cmsis",
+        "//base/iot_hardware/peripheral/interfaces/kits",
+        "//foundation/communication/wifi_lite/interfaces/wifiservice",
+        "//vendor/hqyj/fs_hi3861/common/bsp/include",
+        "//third_party/paho.mqtt.embedded-c/MQTTPacket/src",
+        "//third_party/cJSON",
+    ]
+}
+

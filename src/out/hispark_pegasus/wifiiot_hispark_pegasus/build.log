@@ -1,0 +1,1035 @@
+ohos_build_compiler: gcc
+hks_config_lite.h
+Done. Made 77 targets from 70 files in 151ms
+ninja: Entering directory `D:\hi3861_hdu_iot_application\src\out\hispark_pegasus\wifiiot_hispark_pegasus'
+[1/352] gcc cross compiler obj/base/hiviewdfx/hiview_lite/libhiview_lite.hiview_config.o
+[2/352] gcc cross compiler obj/base/hiviewdfx/hilog_lite/frameworks/mini/libhilog_lite.hiview_log_limit.o
+[3/352] gcc cross compiler obj/base/hiviewdfx/hiview_lite/libhiview_lite.hiview_cache.o
+[4/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.key_agreement_client.o
+[5/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/auth_info/libhichainsdk.remove_auth_info_client.o
+[6/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/auth_info/libhichainsdk.auth_info.o
+[7/352] gcc cross compiler obj/base/hiviewdfx/hiview_lite/libhiview_lite.hiview_file.o
+[8/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/json/libhichainsdk.commonutil.o
+[9/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/auth_info/libhichainsdk.exchange_auth_info.o
+[10/352] gcc cross compiler obj/base/hiviewdfx/hilog_lite/frameworks/mini/libhilog_lite.hiview_log.o
+[11/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/auth_info/libhichainsdk.exchange_auth_info_client.o
+[12/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.key_agreement.o
+[13/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/json/libhichainsdk.jsonutil.o
+[14/352] gcc cross compiler obj/base/hiviewdfx/hilog_lite/frameworks/mini/libhilog_lite.hiview_output_log.o
+../../../base/hiviewdfx/hilog_lite/frameworks/mini/hiview_output_log.c: In function 'LogCommonFmt':
+../../../base/hiviewdfx/hilog_lite/frameworks/mini/hiview_output_log.c:387:15: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+     if (level < 0 || level >= HILOG_LV_MAX) {
+               ^
+[15/352] gcc cross compiler obj/base/hiviewdfx/hiview_lite/libhiview_lite.hiview_service.o
+[16/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/libhichainsdk.hichain.o
+[17/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/auth_info/libhichainsdk.add_auth_info.o
+[18/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/auth_info/libhichainsdk.add_auth_info_client.o
+[19/352] gcc cross compiler obj/base/security/deviceauth/services/group_manager/src/group_manager/account_related/identical_account_group_mock/libdeviceauth.identical_account_group_mock.o
+[20/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/huks_adapter/libhichainsdk.huks_adapter.o
+[21/352] gcc cross compiler obj/base/security/deviceauth/services/group_manager/src/group_manager/account_unrelated/account_unrelated_group_manager/libdeviceauth.account_unrelated_group_manager.o
+[22/352] gcc cross compiler obj/base/security/deviceauth/services/group_manager/src/group_manager/account_related/across_account_group_mock/libdeviceauth.across_account_group_mock.o
+[23/352] gcc cross compiler obj/base/hiviewdfx/hiview_lite/libhiview_lite.hiview_util.o
+[24/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/auth_session/libdeviceauth.auth_session_client.o
+[25/352] gcc cross compiler obj/base/security/deviceauth/services/group_manager/src/group_manager/account_related/account_related_group_manager_mock/libdeviceauth.account_related_group_manager_mock.o
+[26/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/auth_session_lite/libdeviceauth.auth_session_client_lite.o
+[27/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/bind_session/libdeviceauth.bind_session_client.o
+[28/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/auth_session_lite/libdeviceauth.auth_session_common_lite.o
+[29/352] gcc cross compiler obj/base/security/deviceauth/services/group_manager/src/group_manager/account_unrelated/peer_to_peer_group/libdeviceauth.peer_to_peer_group.o
+[30/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/bind_session_lite/libdeviceauth.bind_session_client_lite.o
+[31/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/auth_session/libdeviceauth.auth_session_util.o
+[32/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/auth_session_lite/libdeviceauth.auth_session_server_lite.o
+[33/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/bind_session/libdeviceauth.bind_session_server.o
+[34/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/key_agree_session_mock/libdeviceauth.key_agree_session_client_mock.o
+[35/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/auth_session/libdeviceauth.auth_session_server.o
+[36/352] gcc cross compiler obj/base/security/deviceauth/hals/src/liteos/libdeviceauth_hal_liteos.hc_mutex.o
+[37/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/bind_session_lite/libdeviceauth.bind_session_common_lite.o
+[38/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/auth_session/libdeviceauth.auth_session_common.o
+[39/352] gcc cross compiler obj/base/security/deviceauth/services/group_manager/src/group_manager/libdeviceauth.group_common.o
+[40/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/bind_session_lite/libdeviceauth.bind_session_server_lite.o
+[41/352] gcc cross compiler obj/base/security/deviceauth/services/group_manager/src/group_manager/libdeviceauth.group_manager.o
+[42/352] gcc cross compiler obj/base/security/deviceauth/hals/src/liteos/libdeviceauth_hal_liteos.hc_thread.o
+[43/352] gcc cross compiler obj/base/security/deviceauth/hals/src/liteos/libdeviceauth_hal_liteos.hc_types.o
+[44/352] gcc cross compiler obj/base/security/deviceauth/services/common/src/channel_manager/libdeviceauth.channel_manager.o
+[45/352] gcc cross compiler obj/base/security/deviceauth/hals/src/liteos/libdeviceauth_hal_liteos.hc_time.o
+[46/352] gcc cross compiler obj/base/security/deviceauth/services/group_auth/src/group_auth_manager/libdeviceauth.group_auth_manager.o
+[47/352] gcc cross compiler obj/base/security/deviceauth/hals/src/liteos/libdeviceauth_hal_liteos.hc_condition.o
+[48/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/bind_session/libdeviceauth.bind_session_common.o
+[49/352] gcc cross compiler obj/base/security/deviceauth/services/common/src/callback_manager/libdeviceauth.callback_manager.o
+[50/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.sec_clone_server.o
+[51/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/log/libhichainsdk.log.o
+[52/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.key_agreement_server.o
+[53/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.sts_client.o
+[54/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.pake_client.o
+[55/352] gcc cross compiler obj/base/security/deviceauth/services/common/src/task_manager/libdeviceauth.task_manager.o
+[56/352] gcc cross compiler obj/base/security/deviceauth/services/common/src/broadcast_manager/libdeviceauth.broadcast_manager.o
+[57/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/schedule/libhichainsdk.build_object.o
+[58/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.sts_server.o
+[59/352] gcc cross compiler obj/base/security/deviceauth/services/group_auth/src/group_auth_manager/account_unrelated_group_auth/libdeviceauth.account_unrelated_group_auth.o
+[60/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/schedule/libhichainsdk.distribution.o
+[61/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.pake_server.o
+[62/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.add_auth_info_request.o
+[63/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.add_auth_info_data.o
+[64/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.add_auth_info_response.o
+[65/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.exchange_request.o
+[66/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.auth_ack_request.o
+[67/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.auth_ack_response.o
+[68/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.exchange_auth_data.o
+[69/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.auth_start_response.o
+[70/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.auth_start_request.o
+[71/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.key_agreement_version.o
+[72/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.pake_request.o
+[73/352] gcc cross compiler obj/base/security/deviceauth/services/group_auth/src/group_auth_manager/account_related_group_auth_mock/libdeviceauth.account_related_group_auth_mock.o
+[74/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.pake_response.o
+[75/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.pake_client_confirm.o
+[76/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.pake_server_confirm.o
+[77/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.import_add_auth_data.o
+[78/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.inform_message.o
+[79/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.rmv_auth_info_request.o
+[80/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.parsedata.o
+[81/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.exchange_response.o
+[82/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.rmv_auth_info_response.o
+[83/352] gcc cross compiler obj/base/security/deviceauth/services/libdeviceauth.device_auth.o
+[84/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.sec_clone_data.o
+[85/352] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.rmv_auth_info_data.o
+[86/352] gcc cross compiler obj/base/security/deviceauth/hals/src/common/libdeviceauth_hal_liteos.hc_task_thread.o
+[87/352] gcc cross compiler obj/base/security/deviceauth/hals/src/common/libdeviceauth_hal_liteos.hc_string.o
+[88/352] gcc cross compiler obj/base/security/deviceauth/hals/src/common/libdeviceauth_hal_liteos.alg_loader.o
+[89/352] gcc cross compiler obj/base/security/deviceauth/hals/src/liteos/L0/libdeviceauth_hal_liteos.hc_file.o
+[90/352] gcc cross compiler obj/base/security/deviceauth/hals/src/common/libdeviceauth_hal_liteos.hc_log.o
+In file included from ../../../base/hiviewdfx/hilog_lite/interfaces/native/kits/hilog_lite/log.h:19:0,
+                 from ../../../base/security/deviceauth/hals/inc/liteos/hc_log.h:38,
+                 from ../../../base/security/deviceauth/hals/src/common/hc_log.c:16:
+../../../base/security/deviceauth/hals/src/common/hc_log.c: In function 'DevAuthOutPrint':
+../../../base/security/deviceauth/hals/inc/liteos/hc_log.h:45:63: warning: unknown conversion type character '{' in format [-Wformat=]
+ #define DEV_AUTH_LOG_DEBUG(buf) HILOG_DEBUG(HILOG_MODULE_SCY, "%{public}s", buf)
+                                                               ^
+../../../base/hiviewdfx/hilog_lite/interfaces/native/kits/hilog_lite/hiview_log.h:308:95: note: in definition of macro 'HILOG_DEBUG'
+ #define HILOG_DEBUG(mod, fmt, ...) HiLogPrintf(mod, HILOG_LV_DEBUG, FUN_ARG_NUM(__VA_ARGS__), fmt, ##__VA_ARGS__)
+                                                                                               ^~~
+../../../base/security/deviceauth/hals/src/common/hc_log.c:30:13: note: in expansion of macro 'DEV_AUTH_LOG_DEBUG'
+             DEV_AUTH_LOG_DEBUG(buf);
+             ^~~~~~~~~~~~~~~~~~
+../../../base/security/deviceauth/hals/inc/liteos/hc_log.h:45:63: warning: too many arguments for format [-Wformat-extra-args]
+ #define DEV_AUTH_LOG_DEBUG(buf) HILOG_DEBUG(HILOG_MODULE_SCY, "%{public}s", buf)
+                                                               ^
+../../../base/hiviewdfx/hilog_lite/interfaces/native/kits/hilog_lite/hiview_log.h:308:95: note: in definition of macro 'HILOG_DEBUG'
+ #define HILOG_DEBUG(mod, fmt, ...) HiLogPrintf(mod, HILOG_LV_DEBUG, FUN_ARG_NUM(__VA_ARGS__), fmt, ##__VA_ARGS__)
+                                                                                               ^~~
+../../../base/security/deviceauth/hals/src/common/hc_log.c:30:13: note: in expansion of macro 'DEV_AUTH_LOG_DEBUG'
+             DEV_AUTH_LOG_DEBUG(buf);
+             ^~~~~~~~~~~~~~~~~~
+../../../base/security/deviceauth/hals/inc/liteos/hc_log.h:46:61: warning: unknown conversion type character '{' in format [-Wformat=]
+ #define DEV_AUTH_LOG_INFO(buf) HILOG_INFO(HILOG_MODULE_SCY, "%{public}s", buf)
+                                                             ^
+../../../base/hiviewdfx/hilog_lite/interfaces/native/kits/hilog_lite/hiview_log.h:330:93: note: in definition of macro 'HILOG_INFO'
+ #define HILOG_INFO(mod, fmt, ...) HiLogPrintf(mod, HILOG_LV_INFO, FUN_ARG_NUM(__VA_ARGS__), fmt, ##__VA_ARGS__)
+                                                                                             ^~~
+../../../base/security/deviceauth/hals/src/common/hc_log.c:33:13: note: in expansion of macro 'DEV_AUTH_LOG_INFO'
+             DEV_AUTH_LOG_INFO(buf);
+             ^~~~~~~~~~~~~~~~~
+../../../base/security/deviceauth/hals/inc/liteos/hc_log.h:46:61: warning: too many arguments for format [-Wformat-extra-args]
+ #define DEV_AUTH_LOG_INFO(buf) HILOG_INFO(HILOG_MODULE_SCY, "%{public}s", buf)
+                                                             ^
+../../../base/hiviewdfx/hilog_lite/interfaces/native/kits/hilog_lite/hiview_log.h:330:93: note: in definition of macro 'HILOG_INFO'
+ #define HILOG_INFO(mod, fmt, ...) HiLogPrintf(mod, HILOG_LV_INFO, FUN_ARG_NUM(__VA_ARGS__), fmt, ##__VA_ARGS__)
+                                                                                             ^~~
+../../../base/security/deviceauth/hals/src/common/hc_log.c:33:13: note: in expansion of macro 'DEV_AUTH_LOG_INFO'
+             DEV_AUTH_LOG_INFO(buf);
+             ^~~~~~~~~~~~~~~~~
+../../../base/security/deviceauth/hals/inc/liteos/hc_log.h:47:61: warning: unknown conversion type character '{' in format [-Wformat=]
+ #define DEV_AUTH_LOG_WARN(buf) HILOG_WARN(HILOG_MODULE_SCY, "%{public}s", buf)
+                                                             ^
+../../../base/hiviewdfx/hilog_lite/interfaces/native/kits/hilog_lite/hiview_log.h:352:93: note: in definition of macro 'HILOG_WARN'
+ #define HILOG_WARN(mod, fmt, ...) HiLogPrintf(mod, HILOG_LV_WARN, FUN_ARG_NUM(__VA_ARGS__), fmt, ##__VA_ARGS__)
+                                                                                             ^~~
+../../../base/security/deviceauth/hals/src/common/hc_log.c:36:13: note: in expansion of macro 'DEV_AUTH_LOG_WARN'
+             DEV_AUTH_LOG_WARN(buf);
+             ^~~~~~~~~~~~~~~~~
+../../../base/security/deviceauth/hals/inc/liteos/hc_log.h:47:61: warning: too many arguments for format [-Wformat-extra-args]
+ #define DEV_AUTH_LOG_WARN(buf) HILOG_WARN(HILOG_MODULE_SCY, "%{public}s", buf)
+                                                             ^
+../../../base/hiviewdfx/hilog_lite/interfaces/native/kits/hilog_lite/hiview_log.h:352:93: note: in definition of macro 'HILOG_WARN'
+ #define HILOG_WARN(mod, fmt, ...) HiLogPrintf(mod, HILOG_LV_WARN, FUN_ARG_NUM(__VA_ARGS__), fmt, ##__VA_ARGS__)
+                                                                                             ^~~
+../../../base/security/deviceauth/hals/src/common/hc_log.c:36:13: note: in expansion of macro 'DEV_AUTH_LOG_WARN'
+             DEV_AUTH_LOG_WARN(buf);
+             ^~~~~~~~~~~~~~~~~
+../../../base/security/deviceauth/hals/inc/liteos/hc_log.h:48:63: warning: unknown conversion type character '{' in format [-Wformat=]
+ #define DEV_AUTH_LOG_ERROR(buf) HILOG_ERROR(HILOG_MODULE_SCY, "%{public}s", buf)
+                                                               ^
+../../../base/hiviewdfx/hilog_lite/interfaces/native/kits/hilog_lite/hiview_log.h:374:95: note: in definition of macro 'HILOG_ERROR'
+ #define HILOG_ERROR(mod, fmt, ...) HiLogPrintf(mod, HILOG_LV_ERROR, FUN_ARG_NUM(__VA_ARGS__), fmt, ##__VA_ARGS__)
+                                                                                               ^~~
+../../../base/security/deviceauth/hals/src/common/hc_log.c:39:13: note: in expansion of macro 'DEV_AUTH_LOG_ERROR'
+             DEV_AUTH_LOG_ERROR(buf);
+             ^~~~~~~~~~~~~~~~~~
+../../../base/security/deviceauth/hals/inc/liteos/hc_log.h:48:63: warning: too many arguments for format [-Wformat-extra-args]
+ #define DEV_AUTH_LOG_ERROR(buf) HILOG_ERROR(HILOG_MODULE_SCY, "%{public}s", buf)
+                                                               ^
+../../../base/hiviewdfx/hilog_lite/interfaces/native/kits/hilog_lite/hiview_log.h:374:95: note: in definition of macro 'HILOG_ERROR'
+ #define HILOG_ERROR(mod, fmt, ...) HiLogPrintf(mod, HILOG_LV_ERROR, FUN_ARG_NUM(__VA_ARGS__), fmt, ##__VA_ARGS__)
+                                                                                               ^~~
+../../../base/security/deviceauth/hals/src/common/hc_log.c:39:13: note: in expansion of macro 'DEV_AUTH_LOG_ERROR'
+             DEV_AUTH_LOG_ERROR(buf);
+             ^~~~~~~~~~~~~~~~~~
+[91/352] gcc cross compiler obj/base/security/deviceauth/hals/src/common/libdeviceauth_hal_liteos.hc_parcel.o
+[92/352] gcc cross compiler obj/base/security/deviceauth/hals/src/liteos/L0/libdeviceauth_hal_liteos.huks_adapter.o
+../../../base/security/deviceauth/hals/src/liteos/L0/huks_adapter.c:63:16: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ static int32_t InitHks()
+                ^~~~~~~
+../../../base/security/deviceauth/hals/src/liteos/L0/huks_adapter.c: In function 'CheckImportAsymmetricKeyParam':
+../../../base/security/deviceauth/hals/src/liteos/L0/huks_adapter.c:433:44: warning: unused parameter 'userType' [-Wunused-parameter]
+     const Uint8Buff *authId, const int32_t userType, const int32_t pairType)
+                                            ^~~~~~~~
+../../../base/security/deviceauth/hals/src/liteos/L0/huks_adapter.c: At top level:
+../../../base/security/deviceauth/hals/src/liteos/L0/huks_adapter.c:549:1: warning: missing initializer for field 'bigNumCompare' of 'AlgLoader {aka const struct <anonymous>}' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from ../../../base/security/deviceauth/hals/inc/common/huks_adapter.h:19:0,
+                 from ../../../base/security/deviceauth/hals/src/liteos/L0/huks_adapter.c:16:
+../../../base/security/deviceauth/hals/inc/common/alg_defs.h:147:23: note: 'bigNumCompare' declared here
+     BigNumCompareFunc bigNumCompare;
+                       ^~~~~~~~~~~~~
+[93/352] gcc cross compiler obj/base/security/deviceauth/hals/src/common/libdeviceauth_hal_liteos.common_util.o
+[94/352] gcc cross compiler obj/base/security/deviceauth/hals/src/liteos/L0/libdeviceauth_hal_liteos.hc_init_protection.o
+../../../base/security/deviceauth/hals/src/liteos/L0/hc_init_protection.c:77:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void InitSecurityDevAuth()
+      ^~~~~~~~~~~~~~~~~~~
+../../../base/security/deviceauth/hals/src/liteos/L0/hc_init_protection.c:86:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void DestroySecurityDevAuth()
+      ^~~~~~~~~~~~~~~~~~~~~~
+[95/352] gcc cross compiler obj/base/security/deviceauth/hals/src/dev_info/3861/libdeviceauth_hal_liteos.hc_dev_info.o
+[96/352] gcc cross compiler obj/base/security/deviceauth/hals/src/common/libdeviceauth_hal_liteos.json_utils.o
+[97/352] gcc cross compiler obj/base/security/deviceauth/hals/src/common/libdeviceauth_hal_liteos.hc_tlv_parser.o
+[98/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/libdeviceauth.session_common.o
+[99/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/libdeviceauth.module_common.o
+[100/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/libdeviceauth.auth_session_common_util.o
+[101/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/libdeviceauth.das_version_util.o
+[102/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/iso_task/libdeviceauth.iso_server_task.o
+[103/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/key_agree_session_mock/libdeviceauth.key_agree_session_server_mock.o
+[104/352] gcc cross compiler obj/base/security/deviceauth/services/session/src/libdeviceauth.session_manager.o
+[105/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/iso_task/libdeviceauth.iso_task_common.o
+[106/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/iso_task/libdeviceauth.iso_task_main.o
+[107/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/iso_task/iso_protocol_task/libdeviceauth.iso_client_protocol_task.o
+[108/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/iso_task/libdeviceauth.iso_client_task.o
+[109/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/iso_task/iso_protocol_task/libdeviceauth.iso_server_protocol_task.o
+[110/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/libdeviceauth.dev_auth_module_manager.o
+[111/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/libdeviceauth.version_util.o
+[112/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/libdeviceauth.das_module.o
+[113/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/pake_task/pake_task_mock/libdeviceauth.pake_task_main_mock.o
+[114/352] gcc cross compiler obj/base/security/huks/services/huks_standard/huks_service/main/core/src/libhuks_3.0_sdk.hks_client_check.o
+[115/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/libdeviceauth.das_common.o
+[116/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/protocol/libdeviceauth.protocol_common.o
+[117/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/libdeviceauth.task_main.o
+[118/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/iso_task/lite_exchange_task/libdeviceauth.iso_client_bind_exchange_task.o
+[119/352] gcc cross compiler obj/base/security/deviceauth/services/common/src/data_base/libdeviceauth.database_manager.o
+[120/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/iso_task/lite_exchange_task/libdeviceauth.iso_client_unbind_exchange_task.o
+[121/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/pake_task/new_pake_task_mock/libdeviceauth.new_pake_task_main_mock.o
+[122/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/protocol/new_pake_protocol/new_pake_protocol_ec_mock/libdeviceauth.new_pake_protocol_ec_mock.o
+[123/352] gcc cross compiler obj/base/security/huks/services/huks_standard/huks_service/main/core/src/libhuks_3.0_sdk.hks_client_service.o
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c: In function 'HksServiceSignWithDeviceKey':
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1214:59: warning: unused parameter 'processName' [-Wunused-parameter]
+ int32_t HksServiceSignWithDeviceKey(const struct HksBlob *processName, uint32_t keyId,
+                                                           ^~~~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1214:81: warning: unused parameter 'keyId' [-Wunused-parameter]
+ int32_t HksServiceSignWithDeviceKey(const struct HksBlob *processName, uint32_t keyId,
+                                                                                 ^~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1215:31: warning: unused parameter 'paramSet' [-Wunused-parameter]
+     const struct HksParamSet *paramSet, const struct HksBlob *srcData, struct HksBlob *signature)
+                               ^~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1215:63: warning: unused parameter 'srcData' [-Wunused-parameter]
+     const struct HksParamSet *paramSet, const struct HksBlob *srcData, struct HksBlob *signature)
+                                                               ^~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1215:88: warning: unused parameter 'signature' [-Wunused-parameter]
+     const struct HksParamSet *paramSet, const struct HksBlob *srcData, struct HksBlob *signature)
+                                                                                        ^~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c: In function 'HksServiceAttestKey':
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1220:51: warning: unused parameter 'processName' [-Wunused-parameter]
+ int32_t HksServiceAttestKey(const struct HksBlob *processName, const struct HksBlob *keyAlias,
+                                                   ^~~~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1220:86: warning: unused parameter 'keyAlias' [-Wunused-parameter]
+ int32_t HksServiceAttestKey(const struct HksBlob *processName, const struct HksBlob *keyAlias,
+                                                                                      ^~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1221:31: warning: unused parameter 'paramSet' [-Wunused-parameter]
+     const struct HksParamSet *paramSet, struct HksBlob *certChain)
+                               ^~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1221:57: warning: unused parameter 'certChain' [-Wunused-parameter]
+     const struct HksParamSet *paramSet, struct HksBlob *certChain)
+                                                         ^~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c: In function 'HksServiceGetCertificateChain':
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1226:61: warning: unused parameter 'processName' [-Wunused-parameter]
+ int32_t HksServiceGetCertificateChain(const struct HksBlob *processName, const struct HksBlob *keyAlias,
+                                                             ^~~~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1226:96: warning: unused parameter 'keyAlias' [-Wunused-parameter]
+ int32_t HksServiceGetCertificateChain(const struct HksBlob *processName, const struct HksBlob *keyAlias,
+                                                                                                ^~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1227:31: warning: unused parameter 'paramSet' [-Wunused-parameter]
+     const struct HksParamSet *paramSet, struct HksBlob *certChain)
+                               ^~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1227:57: warning: unused parameter 'certChain' [-Wunused-parameter]
+     const struct HksParamSet *paramSet, struct HksBlob *certChain)
+                                                         ^~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c: In function 'HksServiceWrapKey':
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1232:49: warning: unused parameter 'processName' [-Wunused-parameter]
+ int32_t HksServiceWrapKey(const struct HksBlob *processName, const struct HksBlob *keyAlias,
+                                                 ^~~~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1232:84: warning: unused parameter 'keyAlias' [-Wunused-parameter]
+ int32_t HksServiceWrapKey(const struct HksBlob *processName, const struct HksBlob *keyAlias,
+                                                                                    ^~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1233:27: warning: unused parameter 'targetKeyAlias' [-Wunused-parameter]
+     const struct HksBlob *targetKeyAlias, const struct HksParamSet *paramSet, struct HksBlob *wrappedData)
+                           ^~~~~~~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1233:69: warning: unused parameter 'paramSet' [-Wunused-parameter]
+     const struct HksBlob *targetKeyAlias, const struct HksParamSet *paramSet, struct HksBlob *wrappedData)
+                                                                     ^~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1233:95: warning: unused parameter 'wrappedData' [-Wunused-parameter]
+     const struct HksBlob *targetKeyAlias, const struct HksParamSet *paramSet, struct HksBlob *wrappedData)
+                                                                                               ^~~~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c: In function 'HksServiceUnwrapKey':
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1238:51: warning: unused parameter 'processName' [-Wunused-parameter]
+ int32_t HksServiceUnwrapKey(const struct HksBlob *processName, const struct HksBlob *keyAlias,
+                                                   ^~~~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1238:86: warning: unused parameter 'keyAlias' [-Wunused-parameter]
+ int32_t HksServiceUnwrapKey(const struct HksBlob *processName, const struct HksBlob *keyAlias,
+                                                                                      ^~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1239:27: warning: unused parameter 'targetKeyAlias' [-Wunused-parameter]
+     const struct HksBlob *targetKeyAlias, const struct HksBlob *wrappedData, const struct HksParamSet *paramSet)
+                           ^~~~~~~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1239:65: warning: unused parameter 'wrappedData' [-Wunused-parameter]
+     const struct HksBlob *targetKeyAlias, const struct HksBlob *wrappedData, const struct HksParamSet *paramSet)
+                                                                 ^~~~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1239:104: warning: unused parameter 'paramSet' [-Wunused-parameter]
+     const struct HksBlob *targetKeyAlias, const struct HksBlob *wrappedData, const struct HksParamSet *paramSet)
+                                                                                                        ^~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c: In function 'HksServiceProvision':
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1244:51: warning: unused parameter 'srcData' [-Wunused-parameter]
+ int32_t HksServiceProvision(const struct HksBlob *srcData, const struct HksBlob *challengeIn)
+                                                   ^~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1244:82: warning: unused parameter 'challengeIn' [-Wunused-parameter]
+ int32_t HksServiceProvision(const struct HksBlob *srcData, const struct HksBlob *challengeIn)
+                                                                                  ^~~~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c: In function 'HksServiceProvisionVerify':
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1249:57: warning: unused parameter 'srcData' [-Wunused-parameter]
+ int32_t HksServiceProvisionVerify(const struct HksBlob *srcData, const struct HksBlob *challengeIn)
+                                                         ^~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1249:88: warning: unused parameter 'challengeIn' [-Wunused-parameter]
+ int32_t HksServiceProvisionVerify(const struct HksBlob *srcData, const struct HksBlob *challengeIn)
+                                                                                        ^~~~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c: In function 'HksServiceExportTrustCerts':
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1254:58: warning: unused parameter 'processName' [-Wunused-parameter]
+ int32_t HksServiceExportTrustCerts(const struct HksBlob *processName, struct HksBlob *certChain)
+                                                          ^~~~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/core/src/hks_client_service.c:1254:87: warning: unused parameter 'certChain' [-Wunused-parameter]
+ int32_t HksServiceExportTrustCerts(const struct HksBlob *processName, struct HksBlob *certChain)
+                                                                                       ^~~~~~~~~
+[124/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/iso_task/lite_exchange_task/libdeviceauth.iso_server_bind_exchange_task.o
+[125/352] gcc cross compiler obj/base/security/deviceauth/services/common/src/channel_manager/soft_bus_channel_mock/libdeviceauth.soft_bus_channel_mock.o
+[126/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/pake_task/standard_exchange_task_mock/libdeviceauth.standard_exchange_task_mock.o
+[127/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/pake_task/libdeviceauth.pake_message_util.o
+[128/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/protocol/new_pake_protocol/new_pake_protocol_dl_mock/libdeviceauth.new_pake_protocol_dl_mock.o
+[129/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/protocol/pake_protocol/pake_protocol_dl_mock/libdeviceauth.pake_protocol_dl_mock.o
+[130/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/tcis_module_mock/libdeviceauth.tcis_module_mock.o
+[131/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/iso_task/lite_exchange_task/libdeviceauth.iso_server_unbind_exchange_task.o
+[132/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/protocol/pake_protocol/pake_protocol_ec_mock/libdeviceauth.pake_protocol_ec_mock.o
+[133/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/protocol/iso_protocol/libdeviceauth.iso_protocol_common.o
+[134/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/protocol/pake_protocol/libdeviceauth.pake_protocol_common.o
+[135/352] gcc cross compiler obj/base/security/huks/services/huks_standard/huks_engine/main/core/src/libhuks_3.0_sdk.hks_upgrade_key_info.o
+[136/352] gcc cross compiler obj/base/security/deviceauth/services/module/src/das_module/pake_task/libdeviceauth.pake_task_common.o
+[137/352] gcc cross compiler obj/base/security/huks/services/huks_standard/huks_service/main/core/src/libhuks_3.0_sdk.hks_client_service_adapter_lite.o
+[138/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/os_dependency/ipc/src/libhuks_3.0_sdk.hks_client_service_passthrough.o
+[139/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/common/src/libhuks_3.0_sdk.hks_check_paramset.o
+../../../base/security/huks/frameworks/huks_standard/main/common/src/hks_check_paramset.c:309:16: warning: 'CheckSignVerifyParamsByAlg' defined but not used [-Wunused-function]
+ static int32_t CheckSignVerifyParamsByAlg(uint32_t cmdId, uint32_t alg, const struct ParamsValues *inputParams)
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~
+[140/352] gcc cross compiler obj/base/security/huks/services/huks_standard/huks_service/main/os_dependency/posix/libhuks_3.0_sdk.hks_file_operator_lite.o
+[141/352] gcc cross compiler obj/base/security/huks/services/huks_standard/huks_engine/main/core/src/libhuks_3.0_sdk.hks_auth.o
+[142/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/common/src/libhuks_3.0_sdk.hks_param.o
+[143/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/common/src/libhuks_3.0_sdk.hks_common_check.o
+[144/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/os_dependency/sysinfo/src/libhuks_3.0_sdk.hks_get_process_info_passthrough.o
+[145/352] gcc cross compiler obj/base/security/huks/services/huks_standard/huks_engine/main/core/src/libhuks_3.0_sdk.hks_rkc.o
+[146/352] gcc cross compiler obj/base/security/huks/services/huks_standard/huks_engine/main/core/src/libhuks_3.0_sdk.hks_keyblob.o
+[147/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/os_dependency/sysinfo/src/libhuks_3.0_sdk.hks_get_udid.o
+[148/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/core/src/libhuks_3.0_sdk.hks_local_engine.o
+[149/352] gcc cross compiler obj/base/security/huks/services/huks_standard/huks_service/main/core/src/libhuks_3.0_sdk.hks_upgrade_storage_data.o
+[150/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/common/src/libhuks_3.0_sdk.hks_base_check.o
+../../../base/security/huks/frameworks/huks_standard/main/common/src/hks_base_check.c: In function 'HksCheckSignature':
+../../../base/security/huks/frameworks/huks_standard/main/common/src/hks_base_check.c:1016:36: warning: unused parameter 'cmdId' [-Wunused-parameter]
+ int32_t HksCheckSignature(uint32_t cmdId, uint32_t alg, const struct HksBlob *key, const struct HksBlob *signature)
+                                    ^~~~~
+../../../base/security/huks/frameworks/huks_standard/main/common/src/hks_base_check.c:1016:106: warning: unused parameter 'signature' [-Wunused-parameter]
+ int32_t HksCheckSignature(uint32_t cmdId, uint32_t alg, const struct HksBlob *key, const struct HksBlob *signature)
+                                                                                                          ^~~~~~~~~
+[151/352] gcc cross compiler obj/base/security/huks/services/huks_standard/huks_engine/main/core/src/libhuks_3.0_sdk.hks_core_service.o
+[152/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/libhuks_3.0_sdk.hks_mbedtls_ecdsa.o
+[153/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/os_dependency/posix/libhuks_3.0_sdk.hks_mem.o
+[154/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/common/src/libhuks_3.0_sdk.hks_crypto_adapter.o
+[155/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/libhuks_3.0_sdk.hks_mbedtls_rsa.o
+[156/352] gcc cross compiler obj/base/security/huks/services/huks_standard/huks_engine/main/core/src/libhuks_3.0_sdk.hks_rkc_rw.o
+[157/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/libhuks_3.0_sdk.hks_mbedtls_ecdh.o
+[158/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/libhuks_3.0_sdk.hks_mbedtls_hmac.o
+[159/352] gcc cross compiler obj/base/security/huks/services/huks_standard/huks_service/main/core/src/libhuks_3.0_sdk.hks_storage_adapter.o
+[160/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/libhuks_3.0_sdk.hks_mbedtls_bn.o
+[161/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/libhuks_3.0_sdk.hks_mbedtls_common.o
+[162/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/libhuks_3.0_sdk.hks_crypto_ed25519.o
+[163/352] gcc cross compiler obj/base/security/huks/services/huks_standard/huks_service/main/core/src/libhuks_3.0_sdk.hks_storage_lite.o
+[164/352] STAMP obj/build/lite/mark_as_prebuilts.stamp
+[165/352] STAMP obj/device/hisilicon/hispark_pegasus/hispark_pegasus.stamp
+[166/352] STAMP obj/build/lite/ndk.stamp
+[167/352] gcc cross compiler obj/base/security/huks/interfaces/innerkits/huks_lite/libhuks_3.0_sdk.hks_tmp_client.o
+[168/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/libhuks_3.0_sdk.hks_mbedtls_ecc.o
+[169/352] gcc cross compiler obj/base/security/huks/services/huks_standard/huks_engine/main/core/src/libhuks_3.0_sdk.hks_keyblob_lite.o
+[170/352] STAMP obj/build/lite/config/component/cJSON/cjson_shared.stamp
+[171/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/libhuks_3.0_sdk.hks_mbedtls_aes.o
+[172/352] STAMP obj/base/update/ota_lite/frameworks/test.stamp
+[173/352] gcc cross compiler obj/base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/libhuks_3.0_sdk.hks_passthrough_access.o
+../../../base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/hks_passthrough_access.c: In function 'HksAccessProcessInit':
+../../../base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/hks_passthrough_access.c:96:39: warning: unused parameter 'msgId' [-Wunused-parameter]
+ int32_t HksAccessProcessInit(uint32_t msgId, const struct HksBlob *key, const struct HksParamSet *paramSet,
+                                       ^~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/hks_passthrough_access.c:96:68: warning: unused parameter 'key' [-Wunused-parameter]
+ int32_t HksAccessProcessInit(uint32_t msgId, const struct HksBlob *key, const struct HksParamSet *paramSet,
+                                                                    ^~~
+../../../base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/hks_passthrough_access.c:96:99: warning: unused parameter 'paramSet' [-Wunused-parameter]
+ int32_t HksAccessProcessInit(uint32_t msgId, const struct HksBlob *key, const struct HksParamSet *paramSet,
+                                                                                                   ^~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/hks_passthrough_access.c:97:15: warning: unused parameter 'operationHandle' [-Wunused-parameter]
+     uint64_t *operationHandle)
+               ^~~~~~~~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/hks_passthrough_access.c: In function 'HksAccessProcessMultiUpdate':
+../../../base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/hks_passthrough_access.c:102:46: warning: unused parameter 'msgId' [-Wunused-parameter]
+ int32_t HksAccessProcessMultiUpdate(uint32_t msgId, uint64_t operationHandle, const struct HksBlob *inData,
+                                              ^~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/hks_passthrough_access.c:102:62: warning: unused parameter 'operationHandle' [-Wunused-parameter]
+ int32_t HksAccessProcessMultiUpdate(uint32_t msgId, uint64_t operationHandle, const struct HksBlob *inData,
+                                                              ^~~~~~~~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/hks_passthrough_access.c:102:101: warning: unused parameter 'inData' [-Wunused-parameter]
+ int32_t HksAccessProcessMultiUpdate(uint32_t msgId, uint64_t operationHandle, const struct HksBlob *inData,
+                                                                                                     ^~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/hks_passthrough_access.c:103:21: warning: unused parameter 'outData' [-Wunused-parameter]
+     struct HksBlob *outData)
+                     ^~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/hks_passthrough_access.c: In function 'HksAccessProcessFinal':
+../../../base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/hks_passthrough_access.c:108:40: warning: unused parameter 'msgId' [-Wunused-parameter]
+ int32_t HksAccessProcessFinal(uint32_t msgId, uint64_t operationHandle, const struct HksBlob *inData,
+                                        ^~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/hks_passthrough_access.c:108:56: warning: unused parameter 'operationHandle' [-Wunused-parameter]
+ int32_t HksAccessProcessFinal(uint32_t msgId, uint64_t operationHandle, const struct HksBlob *inData,
+                                                        ^~~~~~~~~~~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/hks_passthrough_access.c:108:95: warning: unused parameter 'inData' [-Wunused-parameter]
+ int32_t HksAccessProcessFinal(uint32_t msgId, uint64_t operationHandle, const struct HksBlob *inData,
+                                                                                               ^~~~~~
+../../../base/security/huks/services/huks_standard/huks_service/main/os_dependency/idl/passthrough/hks_passthrough_access.c:109:21: warning: unused parameter 'outData' [-Wunused-parameter]
+     struct HksBlob *outData)
+                     ^~~~~~~
+[174/352] gcc cross compiler obj/base/startup/bootstrap_lite/services/source/libbootstrap.bootstrap_service.o
+[175/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/libhuks_3.0_sdk.hks_mbedtls_hash.o
+[176/352] STAMP obj/base/update/ota_lite/frameworks/update_api.stamp
+[177/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/libhuks_3.0_sdk.hks_mbedtls_engine.o
+../../../base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/hks_mbedtls_engine.c: In function 'HksCryptoHalSign':
+../../../base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/hks_mbedtls_engine.c:207:48: warning: unused parameter 'key' [-Wunused-parameter]
+ int32_t HksCryptoHalSign(const struct HksBlob *key, const struct HksUsageSpec *usageSpec,
+                                                ^~~
+../../../base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/hks_mbedtls_engine.c:208:27: warning: unused parameter 'message' [-Wunused-parameter]
+     const struct HksBlob *message, struct HksBlob *signature)
+                           ^~~~~~~
+../../../base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/hks_mbedtls_engine.c:208:52: warning: unused parameter 'signature' [-Wunused-parameter]
+     const struct HksBlob *message, struct HksBlob *signature)
+                                                    ^~~~~~~~~
+../../../base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/hks_mbedtls_engine.c: In function 'HksCryptoHalVerify':
+../../../base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/hks_mbedtls_engine.c:229:50: warning: unused parameter 'key' [-Wunused-parameter]
+ int32_t HksCryptoHalVerify(const struct HksBlob *key, const struct HksUsageSpec *usageSpec,
+                                                  ^~~
+../../../base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/hks_mbedtls_engine.c:230:27: warning: unused parameter 'message' [-Wunused-parameter]
+     const struct HksBlob *message, const struct HksBlob *signature)
+                           ^~~~~~~
+../../../base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/hks_mbedtls_engine.c:230:58: warning: unused parameter 'signature' [-Wunused-parameter]
+     const struct HksBlob *message, const struct HksBlob *signature)
+                                                          ^~~~~~~~~
+[178/352] STAMP obj/base/startup/syspara_lite/frameworks/token/token_notes.stamp
+[179/352] gcc cross compiler obj/base/security/huks/interfaces/innerkits/huks_standard/main/src/libhuks_3.0_sdk.hks_api.o
+[180/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/libhuks_3.0_sdk.hks_mbedtls_kdf.o
+[181/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiaware/source/libhal_wifiaware.hal_wifiaware.o
+[182/352] gcc cross compiler obj/base/security/huks/frameworks/huks_standard/main/crypto_engine/mbedtls/src/libhuks_3.0_sdk.hks_mbedtls_x25519.o
+[183/352] gcc cross compiler obj/base/startup/bootstrap_lite/services/source/libbootstrap.system_init.o
+[184/352] gcc cross compiler obj/base/startup/syspara_lite/frameworks/token/src/token_impl_hal/libtoken_static.token.o
+[185/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/hals/utils/file/src/libhal_file_static.hal_file.o
+[186/352] gcc cross compiler obj/base/update/ota_lite/frameworks/source/verify/libhota.app_sha256.o
+[187/352] gcc cross compiler obj/base/startup/syspara_lite/frameworks/parameter/src/param_impl_hal/libsysparam.param_impl_hal.o
+[188/352] gcc cross compiler obj/base/startup/syspara_lite/frameworks/parameter/src/libsysparam.parameter_common.o
+../../../base/startup/syspara_lite/frameworks/parameter/src/parameter_common.c: In function 'GetSha256Value':
+../../../base/startup/syspara_lite/frameworks/parameter/src/parameter_common.c:274:41: warning: pointer targets in passing argument 2 of 'mbedtls_sha256_update_ret' differ in signedness [-Wpointer-sign]
+     mbedtls_sha256_update_ret(&context, input, strlen(input));
+                                         ^~~~~
+In file included from ../../../base/startup/syspara_lite/frameworks/parameter/src/parameter_common.c:22:0:
+../../../third_party/mbedtls/include/mbedtls/sha256.h:148:5: note: expected 'const unsigned char *' but argument is of type 'const char *'
+ int mbedtls_sha256_update_ret( mbedtls_sha256_context *ctx,
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+[189/352] gcc cross compiler obj/base/update/ota_lite/frameworks/source/verify/libhota.app_rsa.o
+[190/352] gcc cross compiler obj/base/update/ota_lite/frameworks/source/verify/libhota.hota_verify.o
+In file included from ../../../base/update/ota_lite/frameworks/source/verify/hota_verify.c:21:0:
+../../../base/update/ota_lite/hals/hal_hota_board.h:111:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ const ComponentTableInfo *HotaHalGetPartitionInfo();
+ ^~~~~
+[191/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/kal/posix/src/libposix.pthread.o
+[192/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/kal/posix/src/libposix.pthread_attr.o
+[193/352] gcc cross compiler obj/third_party/cJSON/libcjson_static.cJSON_Utils.o
+[194/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/kal/posix/src/libposix.libc.o
+[195/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/kal/posix/src/libposix.time.o
+[196/352] gcc cross compiler obj/base/update/ota_lite/frameworks/source/updater/libhota.hota_updater.o
+In file included from ../../../base/update/ota_lite/frameworks/source/updater/hota_updater.c:23:0:
+../../../base/update/ota_lite/hals/hal_hota_board.h:111:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ const ComponentTableInfo *HotaHalGetPartitionInfo();
+ ^~~~~
+../../../base/update/ota_lite/frameworks/source/updater/hota_updater.c: In function 'GetCurrentDloadCompPartition':
+../../../base/update/ota_lite/frameworks/source/updater/hota_updater.c:447:21: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+         if (strncmp((unsigned char *)(g_otaComponents[i].componentName),
+                     ^
+In file included from ../../../device/hisilicon/hispark_pegasus/sdk_liteos/platform/os/Huawei_LiteOS/components/lib/libsec/include/securectype.h:302:0,
+                 from ../../../device/hisilicon/hispark_pegasus/sdk_liteos/platform/os/Huawei_LiteOS/components/lib/libsec/include/securec.h:15,
+                 from ../../../base/update/ota_lite/frameworks/source/updater/hota_updater.c:21:
+../../../device/hisilicon/hispark_pegasus/sdk_liteos/platform/os/Huawei_LiteOS/components/lib/libc/musl/include/string.h:280:5: note: expected 'const char *' but argument is of type 'unsigned char *'
+ int strncmp (const char *, const char *, size_t);
+     ^~~~~~~
+../../../base/update/ota_lite/frameworks/source/updater/hota_updater.c:448:13: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness [-Wpointer-sign]
+             g_componentInfos.table[g_currentDloadComp.index - 1].addr,
+             ^~~~~~~~~~~~~~~~
+In file included from ../../../device/hisilicon/hispark_pegasus/sdk_liteos/platform/os/Huawei_LiteOS/components/lib/libsec/include/securectype.h:302:0,
+                 from ../../../device/hisilicon/hispark_pegasus/sdk_liteos/platform/os/Huawei_LiteOS/components/lib/libsec/include/securec.h:15,
+                 from ../../../base/update/ota_lite/frameworks/source/updater/hota_updater.c:21:
+../../../device/hisilicon/hispark_pegasus/sdk_liteos/platform/os/Huawei_LiteOS/components/lib/libc/musl/include/string.h:280:5: note: expected 'const char *' but argument is of type 'unsigned char *'
+ int strncmp (const char *, const char *, size_t);
+     ^~~~~~~
+../../../base/update/ota_lite/frameworks/source/updater/hota_updater.c: In function 'HotaInit':
+../../../base/update/ota_lite/frameworks/source/updater/hota_updater.c:598:21: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     g_otaComponents = HotaHalGetPartitionInfo();
+                     ^
+[197/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_pwm.o
+[198/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_i2c.o
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/iot_hardware/wifiiot_lite/hal_iot_i2c.c: In function 'IoTI2cWrite':
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/iot_hardware/wifiiot_lite/hal_iot_i2c.c:25:22: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     i2cData.send_buf = data;
+                      ^
+[199/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_watchdog.o
+[200/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_flash.o
+[201/352] STAMP obj/domains/iot/link/link.stamp
+[202/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/libwifiservice.wifi_device_util.o
+[203/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/kal/posix/src/libposix.file.o
+[204/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_uart.o
+[205/352] STAMP obj/domains/iot/link/iot.stamp
+[206/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_lowpower.o
+[207/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_reset.o
+[208/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/kal/cmsis/libcmsis.cmsis_liteos.o
+[209/352] gcc cross compiler obj/foundation/communication/softbus_lite/trans_service/source/utils/libtrans_service.tcp_socket.o
+[210/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_gpio.o
+[211/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/hals/update/libhal_update_static.hal_hota_board.o
+In file included from ../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/update/hal_hota_board.c:16:0:
+../../../base/update/ota_lite/hals/hal_hota_board.h:111:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ const ComponentTableInfo *HotaHalGetPartitionInfo();
+ ^~~~~
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/update/hal_hota_board.c:148:27: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ const ComponentTableInfo *HotaHalGetPartitionInfo()
+                           ^~~~~~~~~~~~~~~~~~~~~~~
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/update/hal_hota_board.c: In function 'HotaHalGetOtaPkgPath':
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/update/hal_hota_board.c:172:15: warning: implicit declaration of function 'strcpy_s' [-Wimplicit-function-declaration]
+     int ret = strcpy_s(path, len ,"/sdcard");
+               ^~~~~~~~
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/update/hal_hota_board.c: In function 'HotaHalGetMetaData':
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/update/hal_hota_board.c:184:40: warning: unused parameter 'metaData' [-Wunused-parameter]
+ int HotaHalGetMetaData(UpdateMetaData *metaData)
+                                        ^~~~~~~~
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/update/hal_hota_board.c: In function 'HotaHalSetMetaData':
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/update/hal_hota_board.c:189:40: warning: unused parameter 'metaData' [-Wunused-parameter]
+ int HotaHalSetMetaData(UpdateMetaData *metaData)
+                                        ^~~~~~~~
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/update/hal_hota_board.c: In function 'HotaHalCheckVersionValid':
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/update/hal_hota_board.c:206:13: warning: implicit declaration of function 'strncmp' [-Wimplicit-function-declaration]
+     return (strncmp(currentVersion, pkgVersion, pkgVersionLength) == 0) ? 1 : 0;
+             ^~~~~~~
+[212/352] gcc cross compiler obj/foundation/communication/softbus_lite/authmanager/source/libauthmanager.msg_get_deviceid.o
+[213/352] gcc cross compiler obj/third_party/cJSON/libcjson_static.cJSON.o
+[214/352] gcc cross compiler obj/foundation/communication/softbus_lite/authmanager/source/libauthmanager.auth_interface.o
+[215/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/libwifiservice.wifi_hotspot.o
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_hotspot.c: In function 'GetPeerSTAWifiIp':
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_hotspot.c:236:52: warning: passing argument 2 of 'netifapi_dhcps_get_client_ip' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     ret = netifapi_dhcps_get_client_ip(netif_node, macAddress, macLen, &clientIP);
+                                                    ^~~~~~~~~~
+In file included from ../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_hotspot.c:19:0:
+../../../device/hisilicon/hispark_pegasus/sdk_liteos/third_party/lwip_sack/include/lwip/netifapi.h:1155:7: note: expected 'u8_t * {aka unsigned char *}' but argument is of type 'const unsigned char *'
+ err_t netifapi_dhcps_get_client_ip(struct netif *netif, u8_t *mac, u8_t maclen, ip_addr_t *ip);
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_hotspot.c:236:72: warning: passing argument 4 of 'netifapi_dhcps_get_client_ip' from incompatible pointer type [-Wincompatible-pointer-types]
+     ret = netifapi_dhcps_get_client_ip(netif_node, macAddress, macLen, &clientIP);
+                                                                        ^
+In file included from ../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_hotspot.c:19:0:
+../../../device/hisilicon/hispark_pegasus/sdk_liteos/third_party/lwip_sack/include/lwip/netifapi.h:1155:7: note: expected 'ip_addr_t * {aka struct ip_addr *}' but argument is of type 'ip4_addr_t * {aka struct ip4_addr *}'
+ err_t netifapi_dhcps_get_client_ip(struct netif *netif, u8_t *mac, u8_t maclen, ip_addr_t *ip);
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[216/352] gcc cross compiler obj/foundation/communication/softbus_lite/authmanager/source/libauthmanager.bus_manager.o
+[217/352] gcc cross compiler obj/foundation/communication/softbus_lite/authmanager/source/libauthmanager.auth_conn.o
+[218/352] gcc cross compiler obj/foundation/communication/softbus_lite/authmanager/source/libauthmanager.wifi_auth_manager.o
+[219/352] gcc cross compiler obj/foundation/communication/softbus_lite/discovery/coap/source/libdiscovery.nstackx_common.o
+[220/352] gcc cross compiler obj/foundation/communication/softbus_lite/trans_service/source/libdistbus/libtrans_service.tcp_session.o
+[221/352] gcc cross compiler obj/foundation/communication/softbus_lite/discovery/coap/source/libdiscovery.nstackx_device.o
+[222/352] gcc cross compiler obj/foundation/communication/softbus_lite/discovery/discovery_service/source/libdiscovery.discovery_service.o
+[223/352] gcc cross compiler obj/foundation/communication/softbus_lite/discovery/coap/source/libdiscovery.json_payload.o
+[224/352] gcc cross compiler obj/foundation/communication/softbus_lite/discovery/discovery_service/source/libdiscovery.coap_service.o
+[225/352] gcc cross compiler obj/device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/libwifiservice.wifi_device.o
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:41:5: warning: braces around scalar initializer
+     {0}, {0}, {0}, 0, WIFI_CONFIG_INVALID, 0, 0, UNKNOWN, {0, 0, {0, 0}, 0}
+     ^
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:41:5: note: (near initialization for 'g_wifiConfigs[3].ssid[5]')
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:41:63: warning: excess elements in scalar initializer
+     {0}, {0}, {0}, 0, WIFI_CONFIG_INVALID, 0, 0, UNKNOWN, {0, 0, {0, 0}, 0}
+                                                               ^
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:41:63: note: (near initialization for 'g_wifiConfigs[3].ssid[5]')
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:41:5: warning: braces around scalar initializer
+     {0}, {0}, {0}, 0, WIFI_CONFIG_INVALID, 0, 0, UNKNOWN, {0, 0, {0, 0}, 0}
+     ^
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:41:5: note: (near initialization for 'g_wifiConfigs[3].ssid[5]')
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:41:70: warning: excess elements in scalar initializer
+     {0}, {0}, {0}, 0, WIFI_CONFIG_INVALID, 0, 0, UNKNOWN, {0, 0, {0, 0}, 0}
+                                                                      ^
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:41:70: note: (near initialization for 'g_wifiConfigs[3].ssid[5]')
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:41:66: warning: excess elements in scalar initializer
+     {0}, {0}, {0}, 0, WIFI_CONFIG_INVALID, 0, 0, UNKNOWN, {0, 0, {0, 0}, 0}
+                                                                  ^
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:41:66: note: (near initialization for 'g_wifiConfigs[3].ssid[5]')
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:41:74: warning: excess elements in scalar initializer
+     {0}, {0}, {0}, 0, WIFI_CONFIG_INVALID, 0, 0, UNKNOWN, {0, 0, {0, 0}, 0}
+                                                                          ^
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:41:74: note: (near initialization for 'g_wifiConfigs[3].ssid[5]')
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:42:1: warning: missing initializer for field 'bssid' of 'WifiDeviceConfig {aka struct WifiDeviceConfig}' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from ../../../foundation/communication/wifi_lite/interfaces/wifiservice/wifi_linked_info.h:38:0,
+                 from ../../../foundation/communication/wifi_lite/interfaces/wifiservice/wifi_event.h:40,
+                 from ../../../foundation/communication/wifi_lite/interfaces/wifiservice/wifi_device.h:39,
+                 from ../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:16:
+../../../foundation/communication/wifi_lite/interfaces/wifiservice/wifi_device_config.h:163:19: note: 'bssid' declared here
+     unsigned char bssid[WIFI_MAC_LEN];
+                   ^~~~~
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:40:63: warning: missing braces around initializer [-Wmissing-braces]
+ static WifiDeviceConfig g_wifiConfigs[WIFI_MAX_CONFIG_SIZE] = {
+                                                               ^
+     {0}, {0}, {0}, 0, WIFI_CONFIG_INVALID, 0, 0, UNKNOWN, {0, 0, {0, 0}, 0}
+      {}   {}   {}  {
+                    {
+ };
+ }
+ }
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c: In function 'StaSetLocaladdr':
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:165:29: warning: passing argument 1 of 'netifapi_netif_set_addr' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     netifapi_netif_set_addr(netif, &st_ipaddr, &st_netmask, &st_gw);
+                             ^~~~~
+In file included from ../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:23:0:
+../../../device/hisilicon/hispark_pegasus/sdk_liteos/third_party/lwip_sack/include/lwip/netifapi.h:402:7: note: expected 'struct netif *' but argument is of type 'const struct netif *'
+ err_t netifapi_netif_set_addr(struct netif *netif,
+       ^~~~~~~~~~~~~~~~~~~~~~~
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c: In function 'StaSetDNSServer':
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:178:9: warning: implicit declaration of function 'lwip_dns_setserver'; did you mean 'nd_ns_reserved'? [-Wimplicit-function-declaration]
+         lwip_dns_setserver(i, &tmp_dns_ser[i]);
+         ^~~~~~~~~~~~~~~~~~
+         nd_ns_reserved
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c: In function 'GetLinkedInfo':
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:899:24: warning: pointer targets in passing argument 1 of 'GetLocalWifiIp' differ in signedness [-Wpointer-sign]
+     if (GetLocalWifiIp(&(result->ipAddress)) != EOK) {
+                        ^
+../../../device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/wifi_device.c:847:12: note: expected 'int * const' but argument is of type 'unsigned int *'
+ static int GetLocalWifiIp(int * const ip)
+            ^~~~~~~~~~~~~~
+[226/352] gcc cross compiler obj/foundation/communication/softbus_lite/trans_service/source/utils/libtrans_service.message.o
+[227/352] gcc cross compiler obj/foundation/communication/softbus_lite/discovery/coap/source/libdiscovery.coap_adapter.o
+[228/352] gcc cross compiler obj/foundation/communication/softbus_lite/trans_service/source/libdistbus/libtrans_service.trans_lock.o
+[229/352] gcc cross compiler obj/foundation/communication/softbus_lite/discovery/discovery_service/source/libdiscovery.common_info_manager.o
+[230/352] gcc cross compiler obj/foundation/communication/softbus_lite/trans_service/source/utils/libtrans_service.aes_gcm.o
+[231/352] gcc cross compiler obj/foundation/communication/softbus_lite/os_adapter/source/L0/libdiscovery.os_adapter.o
+[232/352] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/communication/broadcast/source/libbroadcast.broadcast_service.o
+[233/352] gcc cross compiler obj/foundation/communication/softbus_lite/discovery/coap/source/libdiscovery.coap_socket.o
+[234/352] COPY ../../../foundation/distributedschedule/samgr_lite/config/system_capability.json obj/foundation/distributedschedule/samgr_lite/config/system_capability.json
+[235/352] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/communication/broadcast/source/libbroadcast.pub_sub_implement.o
+[236/352] STAMP obj/foundation/distributedschedule/samgr_lite/ConfigFiles.stamp
+[237/352] gcc cross compiler obj/foundation/communication/softbus_lite/trans_service/source/libdistbus/libtrans_service.auth_conn_manager.o
+[238/352] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/communication/broadcast/source/libbroadcast.pub_sub_feature.o
+[239/352] gcc cross compiler obj/foundation/communication/wifi_aware/frameworks/source/libwifiaware.wifiaware.o
+[240/352] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/registry/libsamgr.service_registry.o
+[241/352] STAMP obj/prebuilts/lite/sysroot/sysroot.stamp
+[242/352] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/source/libsamgr_source.feature.o
+[243/352] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/adapter/cmsis/libsamgr_adapter.queue_adapter.o
+[244/352] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/source/libsamgr_source.iunknown.o
+[245/352] STAMP obj/build/lite/prebuilts.stamp
+[246/352] gcc cross compiler obj/foundation/communication/softbus_lite/discovery/coap/source/libdiscovery.coap_discover.o
+[247/352] STAMP obj/vendor/hisilicon/hispark_pegasus/hispark_pegasus.stamp
+[248/352] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/adapter/cmsis/libsamgr_adapter.memory_adapter.o
+[249/352] gcc cross compiler obj/foundation/communication/softbus_lite/trans_service/source/libdistbus/libtrans_service.tcp_session_manager.o
+[250/352] AR libs/libhiview_lite.a
+[251/352] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/source/libsamgr_source.common.o
+[252/352] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/adapter/cmsis/libsamgr_adapter.thread_adapter.o
+[253/352] AR libs/libhal_wifiaware.a
+[254/352] STAMP obj/build/lite/product.stamp
+[255/352] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/source/libsamgr_source.service.o
+[256/352] AR libs/libhilog_lite.a
+[257/352] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/adapter/cmsis/libsamgr_adapter.time_adapter.o
+[258/352] AR libs/libcjson_static.a
+[259/352] AR libs/libcmsis.a
+[260/352] AR libs/libhuks_3.0_sdk.a
+[261/352] AR libs/libhal_iothardware.a
+[262/352] AR libs/libbootstrap.a
+[263/352] AR libs/libwifiservice.a
+[264/352] STAMP obj/base/hiviewdfx/hilog_lite/frameworks/mini/hilog_lite_ndk.stamp
+[265/352] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/source/libsamgr_source.message.o
+[266/352] AR libs/libhal_file_static.a
+[267/352] AR libs/libhal_update_static.a
+[268/352] STAMP obj/build/lite/config/component/cJSON/cjson_ndk.stamp
+[269/352] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/source/libsamgr.samgr_lite.o
+[270/352] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/source/libsamgr_source.task_manager.o
+[271/352] AR libs/libposix.a
+[272/352] gcc cross compiler obj/vendor/hisilicon/hispark_pegasus/hals/utils/sys_param/libhal_sysparam.hal_sys_param.o
+../../../vendor/hisilicon/hispark_pegasus/hals/utils/sys_param/hal_sys_param.c:33:19: warning: 'EMPTY_STR' defined but not used [-Wunused-const-variable=]
+ static const char EMPTY_STR[] = {""};
+                   ^~~~~~~~~
+[273/352] STAMP obj/base/iot_hardware/peripheral/iothardware_ndk.stamp
+[274/352] STAMP obj/base/iot_hardware/peripheral/iothardware.stamp
+[275/352] gcc cross compiler obj/utils/native/lite/kv_store/src/kvstore_impl_hal/libutils_kv_store.kv_store.o
+[276/352] STAMP obj/base/security/huks/frameworks/huks_lite/huks_sdk.stamp
+[277/352] STAMP obj/device/hisilicon/hispark_pegasus/hi3861_adapter/hals/communication/wifi_lite/wifiservice/wifiservice_ndk.stamp
+[278/352] AR libs/libauthmanager.a
+[279/352] AR libs/libdiscovery.a
+[280/352] AR libs/libtrans_service.a
+[281/352] STAMP obj/foundation/communication/wifi_lite/wifi.stamp
+[282/352] AR libs/libwifiaware.a
+[283/352] AR libs/libbroadcast.a
+[284/352] STAMP obj/device/hisilicon/hispark_pegasus/hi3861_adapter/kal/kal.stamp
+[285/352] AR libs/libsamgr_adapter.a
+[286/352] AR libs/libhal_sysparam.a
+[287/352] AR libs/libhichainsdk.a
+[288/352] STAMP obj/foundation/communication/softbus_lite/discovery_ndk.stamp
+[289/352] STAMP obj/foundation/communication/softbus_lite/trans_service_ndk.stamp
+[290/352] STAMP obj/foundation/communication/softbus_lite/softbus.stamp
+[291/352] STAMP obj/device/hisilicon/hispark_pegasus/sdk_liteos/sdk.stamp
+[292/352] STAMP obj/base/security/deviceauth/frameworks/deviceauth_lite/hichainsdk.stamp
+[293/352] AR libs/libsamgr_source.a
+[294/352] AR libs/libsysparam.a
+[295/352] STAMP obj/foundation/communication/softbus_lite/softbus_lite_ndk.stamp
+[296/352] AR libs/libsamgr.a
+[297/352] STAMP obj/base/startup/syspara_lite/frameworks/parameter/parameter.stamp
+[298/352] STAMP obj/device/hisilicon/hispark_pegasus/sdk_liteos/wifiiot_sdk.stamp
+[299/352] AR libs/libhota.a
+[300/352] gcc cross compiler obj/utils/native/lite/os_dump/libdump_static.dump_syspara.o
+In file included from ../../../utils/native/lite/os_dump/dump_syspara.c:16:0:
+../../../utils/native/lite/os_dump/dump_syspara.h:21:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     char *(*getInfoValue)();
+     ^~~~
+../../../utils/native/lite/os_dump/dump_syspara.h:24:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int QuerySysparaCmd();
+ ^~~
+../../../utils/native/lite/os_dump/dump_syspara.c:26:20: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ static const char* GetSdkApiLevel()
+                    ^~~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c: In function 'GetSdkApiLevel':
+../../../utils/native/lite/os_dump/dump_syspara.c:30:5: warning: implicit declaration of function 'sprintf_s'; did you mean 'sprintf'? [-Wimplicit-function-declaration]
+     sprintf_s(sdkApiVersion, API_VERSION_LEN, "%d", sdkApi);
+     ^~~~~~~~~
+     sprintf
+../../../utils/native/lite/os_dump/dump_syspara.c: At top level:
+../../../utils/native/lite/os_dump/dump_syspara.c:34:20: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ static const char* GetFirstApiLevel()
+                    ^~~~~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:43:20: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"DeviceType", GetDeviceType},
+                    ^~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:43:20: note: (near initialization for 'SYSPARA_LIST[0].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:44:21: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"Manufacture", GetManufacture},
+                     ^~~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:44:21: note: (near initialization for 'SYSPARA_LIST[1].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:45:15: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"Brand", GetBrand},
+               ^~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:45:15: note: (near initialization for 'SYSPARA_LIST[2].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:46:20: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"MarketName", GetMarketName},
+                    ^~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:46:20: note: (near initialization for 'SYSPARA_LIST[3].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:47:23: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"ProductSeries", GetProductSeries},
+                       ^~~~~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:47:23: note: (near initialization for 'SYSPARA_LIST[4].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:48:22: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"ProductModel", GetProductModel},
+                      ^~~~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:48:22: note: (near initialization for 'SYSPARA_LIST[5].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:49:23: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"SoftwareModel", GetSoftwareModel},
+                       ^~~~~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:49:23: note: (near initialization for 'SYSPARA_LIST[6].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:50:23: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"HardwareModel", GetHardwareModel},
+                       ^~~~~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:50:23: note: (near initialization for 'SYSPARA_LIST[7].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:51:16: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"Serial", GetSerial},
+                ^~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:51:16: note: (near initialization for 'SYSPARA_LIST[8].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:52:20: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"OSFullName", GetOSFullName},
+                    ^~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:52:20: note: (near initialization for 'SYSPARA_LIST[9].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:53:24: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"DisplayVersion", GetDisplayVersion},
+                        ^~~~~~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:53:24: note: (near initialization for 'SYSPARA_LIST[10].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:54:27: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"BootloaderVersion", GetBootloaderVersion},
+                           ^~~~~~~~~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:54:27: note: (near initialization for 'SYSPARA_LIST[11].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:55:29: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"GetSecurityPatchTag", GetSecurityPatchTag},
+                             ^~~~~~~~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:55:29: note: (near initialization for 'SYSPARA_LIST[12].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:56:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"AbiList", GetAbiList},
+                 ^~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:56:17: note: (near initialization for 'SYSPARA_LIST[13].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:57:23: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"SdkApiVersion", GetSdkApiLevel},
+                       ^~~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:57:23: note: (near initialization for 'SYSPARA_LIST[14].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:58:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"FirstApiVersion", GetFirstApiLevel},
+                         ^~~~~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:58:25: note: (near initialization for 'SYSPARA_LIST[15].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:59:28: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"IncrementalVersion", GetIncrementalVersion},
+                            ^~~~~~~~~~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:59:28: note: (near initialization for 'SYSPARA_LIST[16].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:60:19: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"VersionId", GetVersionId},
+                   ^~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:60:19: note: (near initialization for 'SYSPARA_LIST[17].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:61:19: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"BuildType", GetBuildType},
+                   ^~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:61:19: note: (near initialization for 'SYSPARA_LIST[18].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:62:19: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"BuildUser", GetBuildUser},
+                   ^~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:62:19: note: (near initialization for 'SYSPARA_LIST[19].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:63:19: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"BuildHost", GetBuildHost},
+                   ^~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:63:19: note: (near initialization for 'SYSPARA_LIST[20].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:64:19: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"BuildTime", GetBuildTime},
+                   ^~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:64:19: note: (near initialization for 'SYSPARA_LIST[21].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:65:23: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     {"BuildRootHash", GetBuildRootHash},
+                       ^~~~~~~~~~~~~~~~
+../../../utils/native/lite/os_dump/dump_syspara.c:65:23: note: (near initialization for 'SYSPARA_LIST[22].getInfoValue')
+../../../utils/native/lite/os_dump/dump_syspara.c:68:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int QuerySysparaCmd()
+     ^~~~~~~~~~~~~~~
+[301/352] STAMP obj/base/startup/syspara_lite/frameworks/parameter/parameter_notes.stamp
+[302/352] STAMP obj/foundation/distributedschedule/samgr_lite/samgr.stamp
+[303/352] gcc cross compiler obj/vendor/hqyj/fs_hi3861/common/bsp/src/libSmartDesk_demo.hal_bsp_sht20.o
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_sht20.c: In function 'SHT20_ReadData':
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_sht20.c:76:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+         printf("I2C SHT20 status = 0x%x!!!\r\n", result);
+         ^~~~~~
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_sht20.c:80:5: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+     usleep(SHT20_READ_TEMP_DATA_TIME); /* datasheet: typ=66, max=85 */
+     ^~~~~~
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_sht20.c:92:5: warning: implicit declaration of function 'memset_s' [-Wimplicit-function-declaration]
+     memset_s(buffer, sizeof(buffer), 0, sizeof(buffer));
+     ^~~~~~~~
+[304/352] STAMP obj/foundation/distributedschedule/samgr_lite/samgr_lite_ndk.stamp
+[305/352] gcc cross compiler obj/vendor/hqyj/fs_hi3861/demo/SmartDesk/libSmartDesk_demo.sensor_collect_task.o
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/sensor_collect_task.c: In function 'sensor_collect_task':
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/sensor_collect_task.c:41:13: warning: implicit declaration of function 'AP3216C_ReadData'; did you mean 'SHT20_ReadData'? [-Wimplicit-function-declaration]
+             AP3216C_ReadData(&sys_msg_data.AP3216C_Value.infrared, &sys_msg_data.AP3216C_Value.light, &sys_msg_data.AP3216C_Value.proximity);//人体，光照，距离
+             ^~~~~~~~~~~~~~~~
+             SHT20_ReadData
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/sensor_collect_task.c:79:13: warning: implicit declaration of function 'forstep'; did you mean 'fwrite'? [-Wimplicit-function-declaration]
+             forstep();
+             ^~~~~~~
+             fwrite
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/sensor_collect_task.c:83:13: warning: implicit declaration of function 'backstep' [-Wimplicit-function-declaration]
+             backstep();
+             ^~~~~~~~
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/sensor_collect_task.c:89:9: warning: implicit declaration of function 'usleep'; did you mean 'fseek'? [-Wimplicit-function-declaration]
+         usleep(TASK_DELAY_TIME);
+         ^~~~~~
+         fseek
+[306/352] gcc cross compiler obj/utils/native/lite/file/src/file_impl_hal/libnative_file.file.o
+[307/352] AR libs/libdump_static.a
+[308/352] STAMP obj/base/update/ota_lite/frameworks/ota_lite.stamp
+[309/352] AR libs/libnative_file.a
+[310/352] STAMP obj/utils/native/lite/os_dump/utils_os_dump.stamp
+[311/352] gcc cross compiler obj/utils/native/lite/kv_store/src/kvstore_common/libutils_kv_store.kvstore_common.o
+[312/352] STAMP obj/utils/native/lite/file/file.stamp
+[313/352] AR libs/libutils_kv_store.a
+[314/352] gcc cross compiler obj/vendor/hqyj/fs_hi3861/demo/SmartDesk/libSmartDesk_demo.mqtt_send_task.o
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/mqtt_send_task.c: In function 'publish_sensor_data':
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/mqtt_send_task.c:38:5: warning: implicit declaration of function 'memset_s'; did you mean 'memset'? [-Wimplicit-function-declaration]
+     memset_s(publish_topic, MQTT_TOPIC_MAX, 0, MQTT_TOPIC_MAX);
+     ^~~~~~~~
+     memset
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/mqtt_send_task.c:39:9: warning: implicit declaration of function 'sprintf_s'; did you mean 'sprintf'? [-Wimplicit-function-declaration]
+     if (sprintf_s(publish_topic, MQTT_TOPIC_MAX, MQTT_TOPIC_PUB, DEVICE_ID) > 0) {
+         ^~~~~~~~~
+         sprintf
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/mqtt_send_task.c:54:39: warning: pointer targets in passing argument 2 of 'MQTTClient_pub' differ in signedness [-Wpointer-sign]
+         MQTTClient_pub(publish_topic, payload, strlen((char *)payload));
+                                       ^~~~~~~
+In file included from ../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/mqtt_send_task.c:8:0:
+../../../vendor/hqyj/fs_hi3861/common/bsp/include/hal_bsp_mqtt.h:54:5: note: expected 'unsigned char *' but argument is of type 'char *'
+ int MQTTClient_pub(char *pub_Topic, unsigned char *payloadData, int payloadLen);
+     ^~~~~~~~~~~~~~
+[315/352] STAMP obj/utils/native/lite/native_api.stamp
+[316/352] STAMP obj/utils/native/lite/kv_store/kv_store.stamp
+[317/352] gcc cross compiler obj/vendor/hqyj/fs_hi3861/common/bsp/src/libSmartDesk_demo.hal_bsp_ap3216c.o
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_ap3216c.c: In function 'AP3216C_ReadRegByteData':
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_ap3216c.c:73:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+         printf("I2C AP3216C status = 0x%x!!!\r\n", result);
+         ^~~~~~
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_ap3216c.c: In function 'AP3216C_Init':
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_ap3216c.c:172:5: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+     usleep(AP3216C_RESET_TIME);
+     ^~~~~~
+[318/352] gcc cross compiler obj/vendor/hqyj/fs_hi3861/demo/SmartDesk/libSmartDesk_demo.motor_task.o
+In file included from ../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/motor_task.c:3:0:
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/motor_task.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void over();
+ ^~~~
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/motor_task.h:11:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void forstep();
+ ^~~~
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/motor_task.h:12:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void backstep();
+ ^~~~
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/motor_task.c:36:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void over(){
+      ^~~~
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/motor_task.c:44:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void forstep() {
+      ^~~~~~~
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/motor_task.c:60:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void backstep(){
+      ^~~~~~~~
+[319/352] STAMP obj/utils/native/lite/utils.stamp
+[320/352] gcc cross compiler obj/vendor/hqyj/fs_hi3861/demo/SmartDesk/libSmartDesk_demo.mqtt_recv_task.o
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/mqtt_recv_task.c: In function 'send_cloud_request_code':
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/mqtt_recv_task.c:89:9: warning: implicit declaration of function 'memset_s'; did you mean 'memset'? [-Wimplicit-function-declaration]
+         memset_s(request_topic,
+         ^~~~~~~~
+         memset
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/mqtt_recv_task.c:93:13: warning: implicit declaration of function 'sprintf_s'; did you mean 'sprintf'? [-Wimplicit-function-declaration]
+         if (sprintf_s(request_topic,
+             ^~~~~~~~~
+             sprintf
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/mqtt_recv_task.c:97:47: warning: pointer targets in passing argument 2 of 'MQTTClient_pub' differ in signedness [-Wpointer-sign]
+                 MQTTClient_pub(request_topic, "{\"result_code\":0}", strlen("{\"result_code\":0}"));
+                                               ^~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/mqtt_recv_task.c:2:0:
+../../../vendor/hqyj/fs_hi3861/common/bsp/include/hal_bsp_mqtt.h:54:5: note: expected 'unsigned char *' but argument is of type 'char *'
+ int MQTTClient_pub(char *pub_Topic, unsigned char *payloadData, int payloadLen);
+     ^~~~~~~~~~~~~~
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/mqtt_recv_task.c:99:47: warning: pointer targets in passing argument 2 of 'MQTTClient_pub' differ in signedness [-Wpointer-sign]
+                 MQTTClient_pub(request_topic, "{\"result_code\":1}", strlen("{\"result_code\":1}"));
+                                               ^~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/mqtt_recv_task.c:2:0:
+../../../vendor/hqyj/fs_hi3861/common/bsp/include/hal_bsp_mqtt.h:54:5: note: expected 'unsigned char *' but argument is of type 'char *'
+ int MQTTClient_pub(char *pub_Topic, unsigned char *payloadData, int payloadLen);
+     ^~~~~~~~~~~~~~
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/mqtt_recv_task.c: In function 'mqttClient_sub_callback':
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/mqtt_recv_task.c:120:13: warning: implicit declaration of function 'strcpy_s'; did you mean 'strcpy'? [-Wimplicit-function-declaration]
+         if (strcpy_s(request_id, sizeof(request_id),
+             ^~~~~~~~
+             strcpy
+[321/352] gcc cross compiler obj/vendor/hqyj/fs_hi3861/common/bsp/src/libSmartDesk_demo.hal_bsp_key.o
+[322/352] gcc cross compiler obj/vendor/hisilicon/hispark_pegasus/hals/utils/token/libhal_token_static.hal_token.o
+[323/352] gcc cross compiler obj/vendor/hqyj/fs_hi3861/common/bsp/src/libSmartDesk_demo.hal_bsp_pcf8574.o
+[324/352] gcc cross compiler obj/vendor/hqyj/fs_hi3861/common/bsp/src/libSmartDesk_demo.hal_bsp_ssd1306_bmps.o
+[325/352] gcc cross compiler obj/vendor/hqyj/fs_hi3861/common/bsp/src/libSmartDesk_demo.oled_show_log.o
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/oled_show_log.c: In function 'oled_show_line_string':
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/oled_show_log.c:43:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+         printf("line is > 4\r\n");
+         ^~~~~~
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/oled_show_log.c:56:34: warning: pointer targets in passing argument 3 of 'SSD1306_ShowStr' differ in signedness [-Wpointer-sign]
+     SSD1306_ShowStr(0, line - 1, string, TEXT_SIZE_16);
+                                  ^~~~~~
+In file included from ../../../vendor/hqyj/fs_hi3861/common/bsp/src/oled_show_log.c:18:0:
+../../../vendor/hqyj/fs_hi3861/common/bsp/include/hal_bsp_ssd1306.h:141:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void SSD1306_ShowStr(unsigned char x, unsigned char y, unsigned char ch[], unsigned char TextSize);
+      ^~~~~~~~~~~~~~~
+[326/352] AR libs/libhal_token_static.a
+[327/352] AR libs/libdeviceauth_hal_liteos.a
+[328/352] gcc cross compiler obj/vendor/hqyj/fs_hi3861/common/bsp/src/libSmartDesk_demo.hal_bsp_ssd1306.o
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_ssd1306.c: In function 'SSD1306_Init':
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_ssd1306.c:357:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+         printf("I2C SSD1306 Init status is 0x%x!!!\r\n", result);
+         ^~~~~~
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_ssd1306.c:361:5: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+     usleep(RESET_TIME);
+     ^~~~~~
+[329/352] AR libs/libtoken_static.a
+[330/352] STAMP obj/base/startup/syspara_lite/frameworks/token/token.stamp
+[331/352] gcc cross compiler obj/vendor/hqyj/fs_hi3861/common/bsp/src/libSmartDesk_demo.hal_bsp_wifi.o
+[332/352] gcc cross compiler obj/third_party/paho.mqtt.embedded-c/MQTTPacket/src/libSmartDesk_demo.MQTTSubscribeClient.o
+[333/352] gcc cross compiler obj/vendor/hqyj/fs_hi3861/common/bsp/src/libSmartDesk_demo.hal_bsp_aw2013.o
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_aw2013.c: In function 'aw2013_WiteByte':
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_aw2013.c:59:9: warning: implicit declaration of function 'printf'; did you mean 'pwrite'? [-Wimplicit-function-declaration]
+         printf("I2C AW2013 Write result is 0x%x!!!\r\n", result);
+         ^~~~~~
+         pwrite
+[334/352] gcc cross compiler obj/third_party/paho.mqtt.embedded-c/MQTTPacket/src/libSmartDesk_demo.MQTTUnsubscribeServer.o
+[335/352] AR libs/libdeviceauth.a
+[336/352] gcc cross compiler obj/vendor/hqyj/fs_hi3861/demo/SmartDesk/libSmartDesk_demo.SmartDesk_demo.o
+In file included from ../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/SmartDesk_demo.c:27:0:
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/motor_task.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void over();
+ ^~~~
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/motor_task.h:11:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void forstep();
+ ^~~~
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/motor_task.h:12:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void backstep();
+ ^~~~
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/SmartDesk_demo.c:79:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ void motor_init(){
+      ^~~~~~~~~~
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/SmartDesk_demo.c: In function 'peripheral_Init':
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/SmartDesk_demo.c:90:5: warning: implicit declaration of function 'KEY_Init' [-Wimplicit-function-declaration]
+     KEY_Init();    // 按键初始化
+     ^~~~~~~~
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/SmartDesk_demo.c:97:63: warning: pointer targets in passing argument 3 of 'SSD1306_ShowStr' differ in signedness [-Wpointer-sign]
+     SSD1306_ShowStr(OLED_TEXT16_COLUMN_0, OLED_TEXT16_LINE_0, "Smart Desk", TEXT_SIZE_16);
+                                                               ^~~~~~~~~~~~
+In file included from ../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/SmartDesk_demo.c:15:0:
+../../../vendor/hqyj/fs_hi3861/common/bsp/include/hal_bsp_ssd1306.h:141:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void SSD1306_ShowStr(unsigned char x, unsigned char y, unsigned char ch[], unsigned char TextSize);
+      ^~~~~~~~~~~~~~~
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/SmartDesk_demo.c: In function 'mqtt_sub_payload_callback':
+../../../vendor/hqyj/fs_hi3861/demo/SmartDesk/SmartDesk_demo.c:43:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+[337/352] STAMP obj/base/security/deviceauth/deviceauth_lite.stamp
+[338/352] gcc cross compiler obj/third_party/paho.mqtt.embedded-c/MQTTPacket/src/libSmartDesk_demo.MQTTFormat.o
+[339/352] gcc cross compiler obj/third_party/paho.mqtt.embedded-c/MQTTPacket/src/libSmartDesk_demo.MQTTConnectClient.o
+[340/352] gcc cross compiler obj/third_party/paho.mqtt.embedded-c/MQTTPacket/src/libSmartDesk_demo.MQTTPacket.o
+[341/352] gcc cross compiler obj/third_party/paho.mqtt.embedded-c/MQTTPacket/src/libSmartDesk_demo.MQTTSerializePublish.o
+[342/352] gcc cross compiler obj/third_party/paho.mqtt.embedded-c/MQTTPacket/src/libSmartDesk_demo.MQTTConnectServer.o
+[343/352] gcc cross compiler obj/third_party/paho.mqtt.embedded-c/MQTTPacket/src/libSmartDesk_demo.MQTTSubscribeServer.o
+[344/352] gcc cross compiler obj/third_party/paho.mqtt.embedded-c/MQTTPacket/src/libSmartDesk_demo.MQTTDeserializePublish.o
+[345/352] gcc cross compiler obj/vendor/hqyj/fs_hi3861/common/bsp/src/libSmartDesk_demo.hal_bsp_mqtt.o
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_mqtt.c: In function 'MQTTClient_sub':
+../../../vendor/hqyj/fs_hi3861/common/bsp/src/hal_bsp_mqtt.c:269:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+[346/352] gcc cross compiler obj/third_party/paho.mqtt.embedded-c/MQTTPacket/src/libSmartDesk_demo.MQTTUnsubscribeClient.o
+[347/352] AR libs/libSmartDesk_demo.a
+[348/352] STAMP obj/vendor/hqyj/fs_hi3861/demo/demo.stamp
+[349/352] STAMP obj/applications/sample/wifi-iot/app/app.stamp
+[350/352] STAMP obj/build/lite/ohos.stamp
+[351/352] ACTION //device/hisilicon/hispark_pegasus/sdk_liteos:run_wifiiot_scons(//build/lite/toolchain:riscv32-unknown-elf)
+[352/352] STAMP obj/device/hisilicon/hispark_pegasus/sdk_liteos/run_wifiiot_scons.stamp
